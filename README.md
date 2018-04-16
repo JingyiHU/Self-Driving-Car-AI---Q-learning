@@ -16,8 +16,7 @@ S ← S' // Update location
 Until S is terminal // the location reaches the end
 ```
 
-Then we combine the Q-learning algorithm with deep learning. From the High Level perspective, Q-learning has achieved the basic function of unmanned vehicles to avoid roadblocks, and the deep learning algorithm allows the vehicle to automatically summarize and learn features, reducing the incomplete nature of human-made features to better adapt Very complicated environmental conditions.
-
+Then we combine the Q-learning algorithm with deep learning. 
 
 ![learn](https://user-images.githubusercontent.com/22739177/32822235-60bfc1b6-c98c-11e7-966a-2a2c295645cc.PNG)
 The calculated L value is back-propagated to calculate the weight w of each synapse (green circle) so that the L value can be as small as possible.

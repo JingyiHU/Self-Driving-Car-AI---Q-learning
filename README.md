@@ -24,4 +24,3 @@ The calculated L value is back-propagated to calculate the weight w of each syna
 It should be noted that the above process is called "learning". 
 
 ![act](https://user-images.githubusercontent.com/22739177/32822234-60a7c57a-c98c-11e7-82b2-82d53104940a.PNG)
-The process of determining the "action" is the process of passing the obtained Q value to "Softmax-Function". "Softmax-Function" is an action selection strategy. It can help us make the best choice based on the current data. 

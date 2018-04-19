@@ -11,7 +11,7 @@ Initialize Q arbitrarily // Initialize the Q value randomly
 Repeat (for each episode): // Every attempt, from the car to the crash wall is an episode
 Initialize S // Starting of the vehicle, S is the state of the initial position
 Repeat (for each step of episode):
-Q(S,A) ← (1-α)*Q(S,A) + α*[R + γ*maxQ(S',a)] // Q-learning core Behrman equation, update action utility value
+Q(S,A) ← (1-α)*Q(S,A) + α*[R + γ*maxQ(S',a)] // Q-learning core Behrman equation, update action quality value
 S ← S' // Update location
 Until S is terminal // the location reaches the end
 ```

@@ -1,3 +1,5 @@
+<p align="center"><b>This is for self-learning purpose.</b></p>
+
 <p align="center"><b>we use PyTorch+Kivy to run the script，environment set up tutorial pytorch and Anaconda</b></p>
 
 
